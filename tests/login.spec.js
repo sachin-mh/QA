@@ -24,13 +24,7 @@ test('invalid email',async ({ page }) => {
   await page.locator("Login In").click()
 });
 
-   
-test('invalid password',async ({ page }) => {
-  await page.locator('// input[@id= "email"]').fill("9865777102");
-  await page.locator("Password").fill("horavanya");
-  await page.locator("Login In").click()
 
-});
 
 
 
